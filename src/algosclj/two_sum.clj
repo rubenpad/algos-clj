@@ -1,6 +1,6 @@
-(ns algosclj.twosum)
+(ns algosclj.two-sum)
 
-(defn twosum [nums target]
+(defn two-sum [nums target]
   (first (for [x (range (count nums))
                y (range (count nums))
                :when (< x y)
