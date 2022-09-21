@@ -1,4 +1,4 @@
 (ns algosclj.sorted-squares)
 
-(defn sorted-squares [sorted-v]
-  (sort (map #(* % %) sorted-v)))
+(defn sorted-squares [sorted-coll]
+  (sort (map #(* % %) sorted-coll)))
