@@ -1,4 +1,4 @@
-(ns algosclj.line-numbers)
+(ns algos.line-numbers)
 
 ;; Given a collection of code lines, add
 ;; the corresponding line number starting at 1

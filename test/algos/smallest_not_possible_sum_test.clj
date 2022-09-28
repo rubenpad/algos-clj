@@ -1,6 +1,6 @@
-(ns algosclj.smallest-not-possible-sum-test
+(ns algos.smallest-not-possible-sum-test
   (:require [clojure.test :as t :refer [deftest is]]
-            [algosclj.smallest-not-possible-sum :refer [smallest-not-possible-sum]]))
+            [algos.smallest-not-possible-sum :refer [smallest-not-possible-sum]]))
 
 (deftest smallest-not-possible-sum-test
   (is (= (smallest-not-possible-sum [1 1 3 4]) 10))

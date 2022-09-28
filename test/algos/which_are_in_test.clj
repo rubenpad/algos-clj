@@ -1,6 +1,6 @@
-(ns algosclj.which-are-in-test
+(ns algos.which-are-in-test
   (:require [clojure.test :refer [deftest testing is]]
-            [algosclj.which-are-in :refer [in-array]]))
+            [algos.which-are-in :refer [in-array]]))
 
 (deftest which-are-in-test
   (testing "Test 1"

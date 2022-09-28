@@ -1,4 +1,4 @@
-(ns algosclj.fizz-buzz)
+(ns algos.fizz-buzz)
 
 (defn divisible-by? [divisor number]
   (zero? (mod number divisor)))

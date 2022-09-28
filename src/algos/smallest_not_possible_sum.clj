@@ -1,4 +1,4 @@
-(ns algosclj.smallest-not-possible-sum)
+(ns algos.smallest-not-possible-sum)
 
 ;; Given a collection of positive numbers,
 ;; find the smallest positive integer value

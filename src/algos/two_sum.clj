@@ -1,4 +1,4 @@
-(ns algosclj.two-sum)
+(ns algos.two-sum)
 
 ;; Given a collection of integers nums and an integer target,
 ;; return indices of the two numbers such that they add up to target.

@@ -1,6 +1,6 @@
-(ns algosclj.line-numbers-test
+(ns algos.line-numbers-test
   (:require [clojure.test :refer [deftest is testing]]
-            [algosclj.line-numbers :refer [line-numbers]]))
+            [algos.line-numbers :refer [line-numbers]]))
 
 (defn tester [lines exp]
   (testing (str "Testing for " lines)

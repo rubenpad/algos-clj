@@ -1,6 +1,6 @@
-(ns algosclj.two-sum-test
+(ns algos.two-sum-test
   (:require [clojure.test :as t :refer [deftest is]]
-            [algosclj.two-sum :refer [two-sum]]))
+            [algos.two-sum :refer [two-sum]]))
 
 (deftest two-sum-test
   (is (= (sort < (two-sum '[1 2 3] 4)) '[0 2]))

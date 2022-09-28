@@ -1,4 +1,4 @@
-(ns algosclj.which-are-in
+(ns algos.which-are-in
   (:require [clojure.string :as string]))
 
 ;; Given two collections of strings coll1 and coll2

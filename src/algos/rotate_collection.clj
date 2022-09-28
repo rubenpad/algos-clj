@@ -1,4 +1,4 @@
-(ns algosclj.rotate-collection)
+(ns algos.rotate-collection)
 
 ;; Given a collection, rotate it to the right by n steps, where steps is not negative
 
