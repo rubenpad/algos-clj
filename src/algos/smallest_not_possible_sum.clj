@@ -10,5 +10,5 @@
     (loop [xs sorted-coll result 1]
       (if (or (empty? xs) (> (first xs) result))
         result
-        (let [[head & tail] xs]
+        (let [[^int head & tail] xs]
           (recur tail (+ head result)))))))
