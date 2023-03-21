@@ -1,4 +1,5 @@
-(ns algos.word-chains)
+(ns algos.word-chains
+  (:require [clojure.string :as string]))
 
 ;; From https://4clojure.oxal.org/#/problem/82
 ;; A word chain consists of a set of words ordered so that
@@ -14,7 +15,7 @@
 (defn count-diff [xw yw]
   (if (= (count xw) (count yw))
            (count (for [idx (range (count xw)) :when (not= (get xw idx) (get yw idx))] idx))
-           (- (count yw) (count (filter #(clojure.string/includes? yw (str %)) xw)))))
+           (- (count yw) (count (filter #(string/includes? yw (str %)) xw)))))
 
 (defn chainable? [xword yword]
   (let [[xw yw] (sort #(< (count %1) (count %2)) [xword yword])
